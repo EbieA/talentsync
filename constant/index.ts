@@ -1,4 +1,4 @@
-import { RatingImages } from "@/types";
+import { Icons, RatingImages } from "@/types";
 
 
 
@@ -19,26 +19,23 @@ export const ratingImages: RatingImages[] = [{
     label: "5",
 },];
 
-// export const link: Links[] = [{
-//     imgURL: "/assets/images/home.svg", route: "/",
-//     label: "Home",
-// }, {
-//     imgURL: "/assets/images/users.svg", route: "/community",
-//     label: "Community",
-// }, {
-//     imgURL: "/assets/images/star.svg", route: "/collection",
-//     label: "Collections",
-// }, {
-//     imgURL: "/assets/images/suitcase.svg", route: "/jobs",
-//     label: "Find Jobs",
-// }, {
-//     imgURL: "/assets/images/tag.svg", route: "/tags",
-//     label: "Tags",
-// }, {
-//     imgURL: "/assets/images/user.svg", route: "/profile",
-//     label: "Profile",
-// }, {
-//     imgURL: "/assets/images/question.svg", route: "/ask-question",
-//     label: "Ask a question",
-// },];
+export const icons: Icons[] = [{
+    imgURL: "/assets/icons/microphone-01.svg",
+    label: "6",
+}, {
+    imgURL: "/assets/icons/video-recorder.svg",
+    label: "1",
+}, {
+    imgURL: "/assets/icons/monitor-01.svg",
+    label: "2",
+}, {
+    imgURL: "/assets/icons/face-smile.svg",
+    label: "3",
+}, {
+    imgURL: "/assets/icons/message.svg",
+    label: "4",
+}, {
+    imgURL: "/assets/icons/settings.svg",
+    label: "5",
+},];
 

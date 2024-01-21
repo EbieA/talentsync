@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import { ratingImages } from "@/constant";
+import { icons, ratingImages } from "@/constant";
 
 const Home = () => {
   return (
     <div>
-      <div className="w-full justify-between items-center inline-flex p-4 md:p-8">
+      <div className="mt-40 w-full justify-between items-center inline-flex p-4 md:p-8">
         <div className="w-[780px] h-[472px] flex-col justify-start items-start gap-12 inline-flex">
           <div className="flex-col justify-start items-start gap-6 flex">
             <div className="w-full md:w-[780px] text-slate-800 text-4xl font-semibold leading-[72px]">
@@ -36,7 +36,7 @@ const Home = () => {
             </div>
           </div>
           <div className="w-[327px] h-[52px] justify-start items-center gap-4 inline-flex">
-            <div className="justify-start items-start gap-2 flex">
+            <div className="w-[154px] h-[10px]justify-start items-start gap-2 flex">
               {ratingImages.map((item, index) => (
                 <div
                   key={index}
@@ -44,13 +44,13 @@ const Home = () => {
                   style={{ position: "relative" }}
                 >
                   <div
-                    className="w-10 h-10 rounded-[200px] border border-white flex-col justify-center items-center inline-flex"
-                    style={{ top: 0, left: 0 }}
+                    className="w-10 h-10 rounded-[200px] border border-white flex-col justify-center items-center inline-flex absolute"
+                    style={{ top: 0, left: 1 / 4 }}
                   >
                     <Image
                       src={item.imgURL}
                       alt={item.label}
-                      className="relative rounded-[200px] border border-blue-700"
+                      className=" rounded-[200px] border border-blue-700"
                       width={50}
                       height={50}
                     />
@@ -116,8 +116,8 @@ const Home = () => {
                   className="left-0 top-[5.47px] absolute"
                   src="/assets/images/image3.png"
                   alt="images"
-                  width={175}
-                  height={175}
+                  width={153}
+                  height={153}
                 />
               </div>
             </div>
@@ -128,8 +128,8 @@ const Home = () => {
                   className="left-0 top-[12.50px] absolute"
                   src="/assets/images/image4.png"
                   alt="images"
-                  width={175}
-                  height={175}
+                  width={147}
+                  height={147}
                 />
               </div>
               <div className="w-40 h-40 relative rounded-xl">
@@ -155,24 +155,20 @@ const Home = () => {
             </div>
           </div>
           <div className="justify-start items-start gap-4 inline-flex">
-            <div className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex">
-              <div className="w-5 h-5 relative" />
-            </div>
-            <div className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex">
-              <div className="w-5 h-5 relative" />
-            </div>
-            <div className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex">
-              <div className="w-5 h-5 relative" />
-            </div>
-            <div className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex">
-              <div className="w-5 h-5 relative" />
-            </div>
-            <div className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex">
-              <div className="w-5 h-5 relative" />
-            </div>
-            <div className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex">
-              <div className="w-5 h-5 relative" />
-            </div>
+            {icons.map((item, index) => (
+              <div
+                key={index}
+                className="p-3 bg-white rounded-[100px] shadow border border-blue-100 justify-center items-center gap-2.5 flex"
+              >
+                <Image
+                  src={item.imgURL}
+                  alt={item.label}
+                  className="w-5 h-5 relative"
+                  width={10}
+                  height={10}
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>
