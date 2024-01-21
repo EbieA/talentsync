@@ -1,12 +1,12 @@
-import Navbar from "@/components/home/NavBar/Navbar";
+import Navbar from "@/components/home/Navbar";
 import React from "react";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <main className="relative pt-8 ">
+    <main className="w-[1728px] h-[868px] px-32 pt-10 pb-24 flex-col justify-start items-center gap-40 inline-flex">
       <Navbar />
-      <section className="flex min-h-screen flex-1 flex-col px-6 pb-6 pt-36 max-md:pb-14 sm:px-14">
-        <div className="mx-auto w-full max-w-5xl">{children}</div>
+      <section>
+        <div>{children}</div>
       </section>
     </main>
   );
