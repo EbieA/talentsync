@@ -5,8 +5,9 @@ import React from "react";
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
-      <Background />
-      <main className="w-[1728px] h-[868px] px-32 pt-10 pb-24 flex-col justify-start items-center gap-40 inline-flex">
+      <main>
+        <div className="w-[1728px] h-[8px] px-32 pb-24 flex-col justify-start items-center gap-40 inline-flex"></div>
+        <Background />
         <Navbar />
         <section>
           <div>{children}</div>
