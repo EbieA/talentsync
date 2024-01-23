@@ -44,12 +44,12 @@ const Home = () => {
               >
                 <div
                   className="w-10 h-10 rounded-[200px] border border-white flex-col justify-center items-center inline-flex absolute"
-                  style={{ top: 0, left: 1 / 4 }}
+                  style={{ top: 0, left: 10 }}
                 >
                   <Image
                     src={item.imgURL}
                     alt={item.label}
-                    className=" rounded-[200px] border border-blue-700"
+                    className="rounded-[200px] border border-blue-700"
                     width={50}
                     height={50}
                   />
@@ -86,7 +86,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="w-[584px] h-[488px] p-8 bg-sky-50 rounded-2xl shadow border border-sky-200 flex-col justify-center items-center gap-10 inline-flex">
+      <div className="w-[584px] h-[488px] p-8 bg-sky-50 rounded-2xl drop-shadow-2xl  border border-sky-200 flex-col justify-center items-center gap-10 inline-flex">
         <div className="flex-col justify-center items-center gap-5 flex">
           <div className="justify-center items-center gap-5 inline-flex">
             <div className="w-40 h-40 relative rounded-xl">
