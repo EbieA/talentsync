@@ -10,7 +10,7 @@ import React from "react";
 const Page = () => {
   return (
     <main>
-      <div>
+      <div className="w-[1728px] mx-auto">
         <Home />
         <Clients />
         <Info />

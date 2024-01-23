@@ -4,8 +4,8 @@ import { icons, ratingImages } from "@/constant";
 
 const Home = () => {
   return (
-    <div className="relative mt-40 w-full justify-between items-center inline-flex p-4 md:p-8">
-      <div className="w-[780px] h-[472px] flex-col justify-start items-start gap-12 inline-flex">
+    <div className="mt-40 w-[1728px] mx-auto justify-center items-center inline-flex p-4 md:p-8">
+      <div className="w-[780px] h-[472px] flex-col justify-center items-start gap-12 inline-flex">
         <div className="flex-col justify-start items-start gap-6 flex">
           <div className="w-full md:w-[780px] text-slate-800 text-4xl font-semibold leading-[72px]">
             Uniting the world, one video call at a time

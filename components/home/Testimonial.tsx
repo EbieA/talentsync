@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Testimonial = () => {
   return (
-    <div className="w-[1728px] h-[748px] py-24 bg-gray-50 flex-col justify-center items-center gap-16 inline-flex">
+    <div className="w-full h-[748px] py-24 bg-gray-50 flex-col justify-center items-center gap-16 inline-flex">
       <div className="w-[1408px] px-8 justify-center items-center gap-16 inline-flex">
         <div className="grow shrink basis-0 flex-col justify-start items-start gap-12 inline-flex">
           <Image

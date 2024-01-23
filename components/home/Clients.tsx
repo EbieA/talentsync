@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Clients = () => {
   return (
-    <div className="w-full h-[313px] py-24 bg-white justify-center items-start inline-flex">
-      <div className="px-8 flex-col justify-start items-start gap-12 inline-flex">
+    <div className="w-[1728px] h-[313px] mx-auto py-24 bg-white justify-center items-start inline-flex">
+      <div className="flex-col justify-start items-start gap-12 inline-flex">
         <div className="self-stretch text-center text-slate-600 text-xl font-medium font-['Inter'] leading-[30px]">
           Join 1,500+ companies already video conferencing the ClearLink way
         </div>

@@ -6,7 +6,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       <Background />
-      <main className="w-full h-[868px] px-32 pt-10 pb-24 flex-col justify-start items-center gap-40 inline-flex">
+      <main className="w-full mx-auto h-[868px] pt-10 pb-24 flex-col justify-start items-center gap-40 inline-flex">
         <Navbar />
         <section>
           <div>{children}</div>

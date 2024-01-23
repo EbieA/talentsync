@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Faq = () => {
   return (
-    <div className="w-[1728px] h-[912px] px-40 py-24 bg-white flex-col justify-start items-start gap-24 inline-flex">
+    <div className="w-full h-[912px] px-40 py-24 bg-white flex-col justify-start items-start gap-24 inline-flex">
       <div className="w-[1408px] justify-between items-start inline-flex">
         <div className="w-[547px] flex-col justify-start items-start gap-5 inline-flex">
           <div className="self-stretch h-[100px] flex-col justify-start items-center gap-3 flex">

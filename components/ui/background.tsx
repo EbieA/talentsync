@@ -2,7 +2,7 @@ import React from "react";
 
 const Background: React.FC = () => {
   return (
-    <div className="absolute inset-0 w-[1920px] h-[1440px] border border-gray-300 flex-col justify-start items-start inline-flex opacity-50 z-[-10]">
+    <div className="absolute inset-0 w-full h-[1440px] border border-gray-300 flex-col justify-start items-start inline-flex opacity-50 z-[-10]">
       <div className="justify-start items-start inline-flex">
         <div className="w-24 h-24 relative border-r border-b border-gray-300" />
         <div className="w-24 h-24 relative border-r border-b border-gray-300" />
