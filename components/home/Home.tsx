@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { icons, ratingImages } from "@/constant";
+import { icons } from "@/constant";
 
 const Home = () => {
   return (
@@ -36,26 +36,71 @@ const Home = () => {
         </div>
         <div className="w-[327px] h-[52px] justify-start items-center gap-4 inline-flex">
           <div className="w-[154px] h-[10px]justify-start items-start gap-2 flex">
-            {ratingImages.map((item, index) => (
+            <div
+              className="justify-start items-start flex"
+              style={{ position: "relative" }}
+            >
               <div
-                key={index}
-                className="justify-start items-start flex"
-                style={{ position: "relative" }}
+                className="w-10 h-10 rounded-[200px] border border-white flex-col justify-center items-center inline-flex absolute"
+                style={{ top: -20, left: 10 }}
               >
-                <div
-                  className="w-10 h-10 rounded-[200px] border border-white flex-col justify-center items-center inline-flex absolute"
-                  style={{ top: 0, left: 10 }}
-                >
-                  <Image
-                    src={item.imgURL}
-                    alt={item.label}
-                    className="rounded-[200px] border border-blue-700"
-                    width={50}
-                    height={50}
-                  />
-                </div>
+                <Image
+                  src="/assets/images/Avatar1.png"
+                  alt="1"
+                  className="rounded-[200px] border border-blue-700"
+                  width={100}
+                  height={100}
+                />
               </div>
-            ))}
+              <div
+                className="w-10 h-10 rounded-[200px] border border-white flex-col justify-center items-center inline-flex absolute"
+                style={{ top: -20, left: 37 }}
+              >
+                <Image
+                  src="/assets/images/Avatar2.png"
+                  alt="1"
+                  className="rounded-[200px] border border-blue-700"
+                  width={100}
+                  height={100}
+                />
+              </div>
+              <div
+                className="w-10 h-10 rounded-[200px] border border-white flex-col justify-center items-center inline-flex absolute"
+                style={{ top: -20, left: 64 }}
+              >
+                <Image
+                  src="/assets/images/Avatar3.png"
+                  alt="1"
+                  className="rounded-[200px] border border-blue-700"
+                  width={100}
+                  height={100}
+                />
+              </div>
+              <div
+                className="w-10 h-10 rounded-[200px] border border-white flex-col justify-center items-center inline-flex absolute"
+                style={{ top: -20, left: 91 }}
+              >
+                <Image
+                  src="/assets/images/Avatar4.png"
+                  alt="1"
+                  className="rounded-[200px] border border-blue-700"
+                  width={100}
+                  height={100}
+                />
+              </div>
+              <div
+                className="w-10 h-10 rounded-[200px] border border-white flex-col justify-center items-center inline-flex absolute"
+                style={{ top: -20, left: 118 }}
+              >
+                <Image
+                  src="/assets/images/Avatar5.png"
+                  alt="1"
+                  className="rounded-[200px] border border-blue-700"
+                  width={100}
+                  height={100}
+                />
+              </div>
+            </div>
           </div>
 
           <div className="flex-col justify-start items-start gap-1 inline-flex">

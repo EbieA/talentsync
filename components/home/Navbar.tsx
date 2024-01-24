@@ -22,6 +22,7 @@ const Navbar = () => {
             </span>
           </div>
         </div>
+
         <div className="justify-start items-start gap-10 flex">
           <div className="justify-start items-center gap-1.5 flex">
             <div className="text-gray-500 text-lg font-semibold font-['Inter'] leading-7">

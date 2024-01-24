@@ -3,216 +3,222 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div>
-      <div className="w-[1728px] h-[388px] pt-24 pb-12 flex-col justify-start items-center gap-16 inline-flex">
-        <div className="justify-center items-start gap-[100px] inline-flex">
-          <div className="w-[400px] flex-col justify-start items-start gap-8 inline-flex">
-            <div className="justify-start items-center gap-2.5 inline-flex">
-              <Image
-                src="/assets/images/Group.svg"
-                alt="logo"
-                width={25.38}
-                height={7}
-                className="w-[25.38px] h-7 relative"
-              />
-              <div>
-                <span className="text-gray-900 text-2xl font-semibold font-['Inter']">
-                  ClearLink
-                </span>
-                <span className="text-blue-500 text-2xl font-semibold font-['Inter']">
-                  .
-                </span>
-              </div>
-            </div>
-            <div className="self-stretch text-slate-600 text-lg font-normal font-['Inter'] leading-7">
-              ClearLink is your gateway to effortless, high-quality video
-              conferencing. Join us in shaping the future of communication!
+    <div className="w-[1728px] h-[388px] pt-24 pb-12 flex-col justify-start items-center gap-16 inline-flex">
+      <div className="justify-center items-start gap-[100px] inline-flex">
+        <div className="w-[400px] flex-col justify-start items-start gap-8 inline-flex">
+          <div className="justify-start items-center gap-2.5 inline-flex">
+            <Image
+              src="/assets/images/Group.svg"
+              alt="logo"
+              width={25.38}
+              height={7}
+              className="w-[25.38px] h-7 relative"
+            />
+            <div>
+              <span className="text-gray-900 text-2xl font-semibold font-['Inter']">
+                ClearLink
+              </span>
+              <span className="text-blue-500 text-2xl font-semibold font-['Inter']">
+                .
+              </span>
             </div>
           </div>
-          <div className="justify-start items-start gap-8 flex">
-            <div className="w-40 flex-col justify-start items-start gap-4 inline-flex">
-              <div className="self-stretch text-gray-500 text-base font-semibold font-['Inter'] leading-normal">
-                Product
+          <div className="self-stretch text-slate-600 text-lg font-normal font-['Inter'] leading-7">
+            ClearLink is your gateway to effortless, high-quality video
+            conferencing. Join us in shaping the future of communication!
+          </div>
+        </div>
+        <div className="justify-start items-start gap-8 flex">
+          <div className="w-40 flex-col justify-start items-start gap-4 inline-flex">
+            <div className="self-stretch text-gray-500 text-base font-semibold font-['Inter'] leading-normal">
+              Product
+            </div>
+            <div className="self-stretch h-[204px] flex-col justify-start items-start gap-4 flex">
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    Overview
+                  </div>
+                </div>
               </div>
-              <div className="self-stretch h-[204px] flex-col justify-start items-start gap-4 flex">
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      Overview
-                    </div>
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    Features
                   </div>
                 </div>
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      Features
-                    </div>
+              </div>
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    Solutions
                   </div>
                 </div>
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      Solutions
-                    </div>
+              </div>
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    Tutorials
                   </div>
                 </div>
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      Tutorials
-                    </div>
-                  </div>
-                </div>
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      Pricing
-                    </div>
+              </div>
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    Pricing
                   </div>
                 </div>
               </div>
             </div>
-            <div className="w-40 flex-col justify-start items-start gap-4 inline-flex">
-              <div className="self-stretch text-gray-500 text-base font-semibold font-['Inter'] leading-normal">
-                Company
+          </div>
+          <div className="w-40 flex-col justify-start items-start gap-4 inline-flex">
+            <div className="self-stretch text-gray-500 text-base font-semibold font-['Inter'] leading-normal">
+              Company
+            </div>
+            <div className="self-stretch h-[204px] flex-col justify-start items-start gap-4 flex">
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    About us
+                  </div>
+                </div>
               </div>
-              <div className="self-stretch h-[204px] flex-col justify-start items-start gap-4 flex">
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      About us
-                    </div>
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    Careers
                   </div>
                 </div>
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      Careers
-                    </div>
+              </div>
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    Press
                   </div>
                 </div>
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      Press
-                    </div>
+              </div>
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    News
                   </div>
                 </div>
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      News
-                    </div>
-                  </div>
-                </div>
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      Contact
-                    </div>
+              </div>
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    Contact
                   </div>
                 </div>
               </div>
             </div>
-            <div className="w-40 flex-col justify-start items-start gap-4 inline-flex">
-              <div className="self-stretch text-gray-500 text-base font-semibold font-['Inter'] leading-normal">
-                Resources
+          </div>
+          <div className="w-40 flex-col justify-start items-start gap-4 inline-flex">
+            <div className="self-stretch text-gray-500 text-base font-semibold font-['Inter'] leading-normal">
+              Resources
+            </div>
+            <div className="self-stretch h-[204px] flex-col justify-start items-start gap-4 flex">
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    Blog
+                  </div>
+                </div>
               </div>
-              <div className="self-stretch h-[204px] flex-col justify-start items-start gap-4 flex">
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      Blog
-                    </div>
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    Events
                   </div>
                 </div>
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      Events
-                    </div>
+              </div>
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    Help centre
                   </div>
                 </div>
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      Help centre
-                    </div>
+              </div>
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    Tutorials
                   </div>
                 </div>
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      Tutorials
-                    </div>
-                  </div>
-                </div>
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      Support
-                    </div>
+              </div>
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    Support
                   </div>
                 </div>
               </div>
             </div>
-            <div className="w-40 flex-col justify-start items-start gap-4 inline-flex">
-              <div className="self-stretch text-gray-500 text-base font-semibold font-['Inter'] leading-normal">
-                Legal
+          </div>
+          <div className="w-40 flex-col justify-start items-start gap-4 inline-flex">
+            <div className="self-stretch text-gray-500 text-base font-semibold font-['Inter'] leading-normal">
+              Legal
+            </div>
+            <div className="self-stretch h-[204px] flex-col justify-start items-start gap-4 flex">
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    Terms
+                  </div>
+                </div>
               </div>
-              <div className="self-stretch h-[204px] flex-col justify-start items-start gap-4 flex">
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      Terms
-                    </div>
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    Privacy
                   </div>
                 </div>
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      Privacy
-                    </div>
+              </div>
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    Cookies
                   </div>
                 </div>
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      Cookies
-                    </div>
+              </div>
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    Licenses
                   </div>
                 </div>
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      Licenses
-                    </div>
-                  </div>
-                </div>
-                <div className="justify-start items-center gap-2 inline-flex">
-                  <div className="justify-center items-center gap-2 flex">
-                    <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
-                      Contact
-                    </div>
+              </div>
+              <div className="justify-start items-center gap-2 inline-flex">
+                <div className="justify-center items-center gap-2 flex">
+                  <div className="text-slate-600 text-lg font-semibold font-['Inter'] leading-7">
+                    Contact
                   </div>
                 </div>
               </div>
             </div>
-            <div className="flex-col justify-start items-start gap-4 inline-flex">
-              <div className="self-stretch text-blue-700 text-base font-semibold font-['Inter'] leading-normal">
-                Get the app
-              </div>
-              <div className="flex-col justify-start items-start gap-4 flex">
+          </div>
+          <div className="flex-col justify-start items-start gap-4 inline-flex">
+            <div className="self-stretch text-blue-700 text-base font-semibold font-['Inter'] leading-normal">
+              Get the app
+            </div>
+            <div className="flex-col justify-start items-start gap-4">
+              <div className="relative w-[135px] h-10 bg-black rounded-[7px] border border-neutral-400 overflow-hidden">
                 <Image
                   src="/assets/icons/apple.svg"
                   alt=""
                   width={135}
                   height={10}
-                  className="w-[135px] h-10 relative bg-black rounded-[7px] border border-neutral-400"
+                  className="object-cover w-full h-full"
                 />
-                <div className="w-[135px] h-10 relative bg-black rounded-[5px] border border-neutral-400">
-                  <div className="w-[23.09px] h-[25.72px] left-[9.97px] top-[7.14px] absolute"></div>
-                </div>
+              </div>
+              <div className="relative w-[135px] h-25.72">
+                <Image
+                  src="/assets/images/google.svg"
+                  alt=""
+                  width={135}
+                  height={10}
+                  className="object-cover w-full h-full"
+                />
               </div>
             </div>
           </div>
