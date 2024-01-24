@@ -1,12 +1,13 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <div className="w-[1728px] h-[388px] pt-24 pb-12 flex-col justify-start items-center gap-16 inline-flex">
       <div className="justify-center items-start gap-[100px] inline-flex">
         <div className="w-[400px] flex-col justify-start items-start gap-8 inline-flex">
-          <div className="justify-start items-center gap-2.5 inline-flex">
+          <Link href="/" className="justify-start items-center gap-2.5 inline-flex">
             <Image
               src="/assets/images/Group.svg"
               alt="logo"
@@ -22,14 +23,14 @@ const Footer = () => {
                 .
               </span>
             </div>
-          </div>
+          </Link>
           <div className="self-stretch text-slate-600 text-lg font-normal font-['Inter'] leading-7">
             ClearLink is your gateway to effortless, high-quality video
             conferencing. Join us in shaping the future of communication!
           </div>
         </div>
         <div className="justify-start items-start gap-8 flex">
-          <div className="w-40 flex-col justify-start items-start gap-4 inline-flex">
+          <Link href='/product' className="w-40 flex-col justify-start items-start gap-4 inline-flex">
             <div className="self-stretch text-gray-500 text-base font-semibold font-['Inter'] leading-normal">
               Product
             </div>
@@ -70,7 +71,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
           <div className="w-40 flex-col justify-start items-start gap-4 inline-flex">
             <div className="self-stretch text-gray-500 text-base font-semibold font-['Inter'] leading-normal">
               Company

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Faq = () => {
   return (
@@ -20,7 +21,7 @@ const Faq = () => {
               find the answer you’re looking for? Please{" "}
             </span>
             <span className="text-gray-500 text-2xl font-normal font-['Inter'] underline leading-loose">
-              chat to our friendly team
+              <Link href="/chat">chat to our friendly team</Link>
             </span>
             <span className="text-gray-500 text-2xl font-normal font-['Inter'] leading-loose">
               .

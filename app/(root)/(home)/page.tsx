@@ -12,12 +12,12 @@ const Page = () => {
     <main>
       <div className="w-[1728px] mx-auto">
         <Home />
-        {/* <Clients />
+        <Clients />
         <Info />
         <Testimonial />
         <Faq />
         <Trial />
-        <Footer /> */}
+        <Footer />
       </div>
     </main>
   );

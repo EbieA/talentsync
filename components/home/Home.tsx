@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { icons } from "@/constant";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -17,11 +18,14 @@ const Home = () => {
         </div>
         <div className="flex justify-start items-center gap-5">
           {/* Start your free trial button */}
-          <div className="px-7 py-4 bg-blue-700 rounded-full shadow text-white text-lg font-semibold">
+          <Link
+            href="/trial"
+            className="px-7 py-4 bg-blue-700 rounded-full shadow text-white text-lg font-semibold"
+          >
             Start your free trial
-          </div>
+          </Link>
           {/* Discover AI assistant button */}
-          <div className="flex gap-3 items-center">
+          <Link href="/ai-assistant" className="flex gap-3 items-center">
             <Image
               src="/assets/icons/Robot.svg"
               alt="robot"
@@ -32,7 +36,7 @@ const Home = () => {
             <div className="text-blue-700 text-lg font-semibold">
               Discover AI assistant
             </div>
-          </div>
+          </Link>
         </div>
         <div className="w-[327px] h-[52px] justify-start items-center gap-4 inline-flex">
           <div className="w-[154px] h-[10px]justify-start items-start gap-2 flex">

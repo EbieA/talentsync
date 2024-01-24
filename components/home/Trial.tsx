@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Trial = () => {
   return (
@@ -77,26 +78,32 @@ const Trial = () => {
           </div>
         </div>
         <div className=" mt-40 justify-start items-center gap-2 inline-flex">
-          <div className="px-6 py-3.5 bg-white rounded-[100px] shadow border border-gray-400 justify-center items-center gap-1 flex">
+          <Link
+            href="/sales"
+            className="px-6 py-3.5 bg-white rounded-[100px] shadow border border-gray-400 justify-center items-center gap-1 flex"
+          >
             <div className="text-gray-900 text-base font-semibold font-['Inter'] leading-normal">
               Talk to sales
             </div>
-          </div>
+          </Link>
           <div className="px-6 py-3.5 bg-blue-700 rounded-[100px] shadow justify-center items-center gap-1 flex">
-            <div className="text-white text-base font-semibold font-['Inter'] leading-normal">
+            <Link
+              href="/trial"
+              className="text-white text-base font-semibold font-['Inter'] leading-normal"
+            >
               Start your free trial
-            </div>
+            </Link>
           </div>
         </div>
       </div>
       <div className="justify-end items-center flex overflow-hidden">
-        <div className="w-[1024px] h-[682px] rounded-xl border-8 border-gray-900 justify-center items-center inline-flex transform translate-x-40">
+        <div className="w-[1124px] h-[682px] rounded-xl border-8 border-gray-900 justify-center items-center inline-flex transform translate-x-40 translate-y-20">
           <Image
             src="/assets/images/call.png"
             alt="call"
-            className="w-[1024px] h-[674px] relative rounded-xl"
-            width={1024}
-            height={682}
+            className="w-full h-full relative rounded-xl"
+            width={2592}
+            height={1676}
           />
         </div>
       </div>
